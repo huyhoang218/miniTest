@@ -13,6 +13,8 @@ function countType(arr){
         if(reviewPoint(arr[i]) === 'B') countB ++
         if(reviewPoint(arr[i]) === 'C') countC ++
     }
+    let arrayCount = [countA, countB, countC]
+    return arrayCount
 }
 
 function getAvg(arr){
